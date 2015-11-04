@@ -16,7 +16,7 @@ module.exports = function (grunt) {
         content.bugs.url = repo.replace('.git','/issues');
         content.homepage = repo.replace('.git','');
       }
-      grunt.file.write(JSON.stringify(content,null,2));
+      grunt.file.write('package.json',JSON.stringify(content,null,2));
     }
   }
   grunt.registerTask('init', getName);
