@@ -38,3 +38,9 @@ In index.js the command object will contain the name of the commands which need 
 ##Command Scripts
 
 Take a look into the src folder where there is an example command script. This will be executed when the command associated with this file is called.
+
+##Installation
+`cd` into the project folder then type  
+```
+npm install -g .
+```
